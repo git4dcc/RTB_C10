@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 2 4
 Title "RTB C10 Module"
 Date "2023-10-22"
 Rev "2"
@@ -16,12 +16,12 @@ $EndDescr
 Text Notes 750  800  0    118  ~ 0
 CPU
 $Comp
-L _SamacSys:74HC595BQ,115 IC3
+L RTB:74HC595BQ,115 IC3
 U 1 1 5DCC15D9
 P 7900 1350
 F 0 "IC3" H 8500 1615 50  0000 C CNN
 F 1 "74HC595BQ,115" H 8500 1524 50  0000 C CNN
-F 2 "_Samac:74HC595BQ115" H 8950 1450 50  0001 L CNN
+F 2 "RTB_foot:74HC595BQ115" H 8950 1450 50  0001 L CNN
 F 3 "https://componentsearchengine.com/Datasheets/1/74HC595BQ,115.pdf" H 8950 1350 50  0001 L CNN
 F 4 "8-bit SIPO shift register,3-state, QFN16" H 8950 1250 50  0001 L CNN "Description"
 F 5 "1" H 8950 1150 50  0001 L CNN "Height"

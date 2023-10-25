@@ -36,7 +36,7 @@ AR Path="/5B6C6B9D/5BBDFED5" Ref="J?"  Part="1"
 AR Path="/5BBD98C6/5BBDFED5" Ref="J1"  Part="1" 
 F 0 "J1" H 2005 3467 50  0000 C CNN
 F 1 "USB_B_Mini" H 2005 3376 50  0000 C CNN
-F 2 "_Samac:USB_Micro-B_Reichelt_BWM_SMD" H 2100 2950 50  0001 C CNN
+F 2 "RTB:USB_Micro-B_Reichelt_BWM_SMD" H 2100 2950 50  0001 C CNN
 F 3 "~" H 2100 2950 50  0001 C CNN
 	1    1950 3000
 	1    0    0    -1  
@@ -287,7 +287,7 @@ Wire Wire Line
 Wire Wire Line
 	2150 4050 2150 4150
 $Comp
-L _SamacSys:ISO7742 U?
+L RTB:ISO7742 U?
 U 1 1 5BBDFFBA
 P 6900 2600
 AR Path="/5B6C6B9D/5BBDFFBA" Ref="U?"  Part="1" 

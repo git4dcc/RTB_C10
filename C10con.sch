@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
-Title "RTB Bus Master"
+Title "RTB C10 Module"
 Date "2023-10-22"
 Rev "2"
 Comp "Frank Schumacher"
-Comment1 "C10.2"
-Comment2 "USB interface"
+Comment1 "Bus Master /w USB"
+Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr

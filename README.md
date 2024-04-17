@@ -5,6 +5,8 @@
 
 The RTB Bus Master connects the PC with the layout via USB.
 
+[more](https://rtb4dcc.de/hardware/modules/c10/)
+
 # PCB
 <img src="https://rtb4dcc.de/wp-content/uploads/2024/01/C10_2.png" width=600>
 

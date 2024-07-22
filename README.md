@@ -5,14 +5,22 @@
 
 The RTB Bus Master connects the PC with the layout via USB.
 
-[more](https://rtb4dcc.de/hardware/modules/c10/)
+<img src="https://rtb4dcc.de/wp-content/uploads/2024/07/C10_2.png">
 
-# PCB
-<img src="https://rtb4dcc.de/wp-content/uploads/2024/01/C10_2.png" width=600>
+# Hardware
+My current PCB layout uses SMD footprints with 0.4mm pitch and postly 0603 parts. Reflow soldering is my recommendation, but with some experience handsoldering is also possible.
+
+## PCB
+- 4-layer PCB, FR4, 1.6mm
+- CPU: AVR64DB48
+- USB: FT232X (Mini-B)
+
+## Kicad
+:yellow_circle: Dependency: Requires my Kicad project library [RTB_SamacSys](https://github.com/git4dcc/RTB_SamacSys)
 
 [Schematic](doc/C10_schematic.pdf) | [Layout](doc/C10_layout.pdf)
 
-# Firmware
+## Firmware
 Filename structure: { **pcb** }{ **code** }{ **version** }.hex
 
 Example: **C10F0001**.hex
@@ -22,3 +30,11 @@ Example: **C10F0001**.hex
 | **pcb** | Name of matching hardware (**C10**) |
 | **code** | Type of code contained (**R**=rom, **B**=bootloader, **F**=flash, **U**=bld update, **P**=UPDI factory code) |
 | **version** | Release version (**####**) |
+
+## UPDI
+
+## Debug Interface
+
+# Software
+
+# Images

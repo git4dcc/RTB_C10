@@ -178,10 +178,6 @@ Wire Wire Line
 	3050 3150 3050 3250
 Wire Wire Line
 	2700 3250 3050 3250
-Wire Wire Line
-	2700 1850 3100 1850
-Text GLabel 3100 1850 2    50   Input ~ 0
-Vrail
 Text GLabel 6550 2050 0    50   Input ~ 0
 Vrail
 $Comp
@@ -263,19 +259,6 @@ Text GLabel 3150 4150 2    50   Input ~ 0
 SLT.tx
 Wire Wire Line
 	2700 1750 2750 1750
-$Comp
-L Device:R R1
-U 1 1 5F704499
-P 2900 1750
-F 0 "R1" V 2693 1750 50  0001 C CNN
-F 1 "1k" V 2900 1750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2830 1750 50  0001 C CNN
-F 3 "~" H 2900 1750 50  0001 C CNN
-	1    2900 1750
-	0    1    1    0   
-$EndComp
-Text GLabel 3100 1750 2    50   Output ~ 0
-3.3V
 $Comp
 L Device:D D1
 U 1 1 5F6AD32E
@@ -371,4 +354,304 @@ Wire Notes Line
 	6100 3350 6100 1200
 Text Notes 6200 1450 0    118  ~ 0
 Power supply
+NoConn ~ 2700 1950
+NoConn ~ 2700 2050
+NoConn ~ 2700 2150
+NoConn ~ 2700 2250
+NoConn ~ 2700 2350
+NoConn ~ 2700 2450
+NoConn ~ 2700 2550
+NoConn ~ 2700 2650
+Wire Wire Line
+	2700 2950 3050 2950
+Wire Wire Line
+	3050 2950 3050 3000
+Wire Wire Line
+	3050 3050 2700 3050
+Wire Wire Line
+	3050 3000 3550 3000
+Connection ~ 3050 3000
+Wire Wire Line
+	3050 3000 3050 3050
+Text GLabel 3550 3000 2    50   Input ~ 0
+VEXT
+$Comp
+L power:GNDS #PWR?
+U 1 1 6621F263
+P 3550 2800
+AR Path="/5B6C6B9D/6621F263" Ref="#PWR?"  Part="1" 
+AR Path="/5BBD98C6/6621F263" Ref="#PWR?"  Part="1" 
+AR Path="/5B6E0562/6621F263" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0111" H 3550 2550 50  0001 C CNN
+F 1 "GNDS" V 3550 2550 50  0000 C CNN
+F 2 "" H 3550 2800 50  0001 C CNN
+F 3 "" H 3550 2800 50  0001 C CNN
+	1    3550 2800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2700 2750 3050 2750
+Wire Wire Line
+	3050 2750 3050 2800
+Wire Wire Line
+	3050 2850 2700 2850
+Wire Wire Line
+	3050 2800 3550 2800
+Connection ~ 3050 2800
+Wire Wire Line
+	3050 2800 3050 2850
+Wire Notes Line
+	3450 2700 4050 2700
+Wire Notes Line
+	4050 2700 4050 3150
+Wire Notes Line
+	4050 3150 3450 3150
+Wire Notes Line
+	3450 3150 3450 2700
+Text Notes 3450 2650 0    50   ~ 0
+USB power domain
+$Comp
+L RTB:TPS2552DRVT IC1
+U 1 1 6636B693
+P 8900 4150
+F 0 "IC1" H 9500 4415 50  0000 C CNN
+F 1 "TPS2552DRVT" H 9500 4324 50  0000 C CNN
+F 2 "SON65P200X200X80-7N" H 9950 4250 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/tps2552" H 9950 4150 50  0001 L CNN
+F 4 "Adjustable, Active Low, Constant-Current, Current-Limited Power-Distribution Switch" H 9950 4050 50  0001 L CNN "Description"
+F 5 "0.8" H 9950 3950 50  0001 L CNN "Height"
+F 6 "595-TPS2552DRVT" H 9950 3850 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS2552DRVT?qs=QZKT0uTfj2JEAmmXm3QQGw%3D%3D" H 9950 3750 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 9950 3650 50  0001 L CNN "Manufacturer_Name"
+F 9 "TPS2552DRVT" H 9950 3550 50  0001 L CNN "Manufacturer_Part_Number"
+	1    8900 4150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR?
+U 1 1 6636D8EE
+P 8300 5000
+AR Path="/5B6C6B9D/6636D8EE" Ref="#PWR?"  Part="1" 
+AR Path="/5BBD98C6/6636D8EE" Ref="#PWR?"  Part="1" 
+AR Path="/5B6E0562/6636D8EE" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 8300 4750 50  0001 C CNN
+F 1 "GNDS" H 8300 4850 50  0000 C CNN
+F 2 "" H 8300 5000 50  0001 C CNN
+F 3 "" H 8300 5000 50  0001 C CNN
+	1    8300 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 6636F6FA
+P 7250 4350
+F 0 "R9" V 7043 4350 50  0001 C CNN
+F 1 "100k" V 7250 4350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7180 4350 50  0001 C CNN
+F 3 "~" H 7250 4350 50  0001 C CNN
+	1    7250 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7400 4350 7700 4350
+Wire Wire Line
+	7050 4350 7050 4150
+Wire Wire Line
+	7050 4150 7500 4150
+Text GLabel 6450 4150 0    50   Input ~ 0
+VBUS
+Wire Wire Line
+	7700 4250 7650 4250
+Wire Wire Line
+	7650 4250 7650 4850
+Wire Wire Line
+	8300 4850 7650 4850
+Wire Wire Line
+	8300 4850 8300 5000
+Connection ~ 8300 4850
+Connection ~ 7050 4150
+$Comp
+L Device:R R10
+U 1 1 66379A5A
+P 9450 4600
+F 0 "R10" V 9243 4600 50  0001 C CNN
+F 1 "27k" V 9450 4600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9380 4600 50  0001 C CNN
+F 3 "~" H 9450 4600 50  0001 C CNN
+	1    9450 4600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8900 4250 9450 4250
+Wire Wire Line
+	9450 4250 9450 4450
+Wire Wire Line
+	9450 4750 9450 4850
+Wire Wire Line
+	9450 4850 9150 4850
+Wire Wire Line
+	8900 4150 8950 4150
+$Comp
+L Device:C_Small C17
+U 1 1 66386E38
+P 7500 4600
+F 0 "C17" H 7592 4646 50  0001 L CNN
+F 1 "100n" H 7250 4500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7500 4600 50  0001 C CNN
+F 3 "~" H 7500 4600 50  0001 C CNN
+	1    7500 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 4500 7500 4150
+Connection ~ 7500 4150
+Wire Wire Line
+	7500 4150 7700 4150
+Wire Wire Line
+	7500 4700 7500 4850
+Wire Wire Line
+	7500 4850 7650 4850
+Connection ~ 7650 4850
+Text GLabel 10100 4150 2    50   Input ~ 0
+VEXT
+Wire Wire Line
+	2700 1850 3100 1850
+Text GLabel 3100 1850 2    50   Input ~ 0
+Vrail
+$Comp
+L Device:R R1
+U 1 1 5F704499
+P 2900 1750
+F 0 "R1" V 2693 1750 50  0001 C CNN
+F 1 "1k" V 2900 1750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2830 1750 50  0001 C CNN
+F 3 "~" H 2900 1750 50  0001 C CNN
+	1    2900 1750
+	0    1    1    0   
+$EndComp
+Text GLabel 3100 1750 2    50   Output ~ 0
+3.3V
+$Comp
+L Jumper:SolderJumper_2_Open JP3
+U 1 1 66417A23
+P 9900 4150
+F 0 "JP3" H 9900 4355 50  0000 C CNN
+F 1 "USB power" H 9900 4264 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9900 4150 50  0001 C CNN
+F 3 "~" H 9900 4150 50  0001 C CNN
+	1    9900 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D6
+U 1 1 66432BE8
+P 9600 4600
+F 0 "D6" V 9638 4482 50  0001 R CNN
+F 1 "LED(red)" V 9600 4500 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 9600 4600 50  0001 C CNN
+F 3 "~" H 9600 4600 50  0001 C CNN
+	1    9600 4600
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	8900 4350 9600 4350
+$Comp
+L Device:R R12
+U 1 1 6643AC6C
+P 9900 4850
+F 0 "R12" V 9693 4850 50  0001 C CNN
+F 1 "1k" V 9900 4850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9830 4850 50  0001 C CNN
+F 3 "~" H 9900 4850 50  0001 C CNN
+	1    9900 4850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9600 4350 9600 4450
+Wire Wire Line
+	9600 4750 9600 4850
+Wire Wire Line
+	9600 4850 9750 4850
+Text GLabel 10100 4850 2    50   Input ~ 0
+VBUS
+Wire Notes Line
+	6100 3650 10500 3650
+Wire Notes Line
+	10500 3650 10500 5350
+Wire Notes Line
+	10500 5350 6100 5350
+Wire Notes Line
+	6100 5350 6100 3650
+Text Notes 6200 5300 0    50   ~ 0
+USB power domain
+Text Notes 6200 3850 0    118  ~ 0
+USB pmic
+Wire Wire Line
+	10050 4150 10100 4150
+Wire Wire Line
+	10050 4850 10100 4850
+Connection ~ 8950 4850
+Wire Wire Line
+	8950 4850 8300 4850
+Connection ~ 8950 4150
+Wire Wire Line
+	8950 4150 9150 4150
+Wire Wire Line
+	8950 4150 8950 4500
+Wire Wire Line
+	8950 4700 8950 4850
+$Comp
+L Device:C_Small C19
+U 1 1 66485B1B
+P 8950 4600
+F 0 "C19" H 9042 4646 50  0001 L CNN
+F 1 "220u/6V" H 8850 4250 50  0001 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 8950 4600 50  0001 C CNN
+F 3 "~" H 8950 4600 50  0001 C CNN
+	1    8950 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 4150 7050 4150
+Wire Wire Line
+	6450 4150 6550 4150
+$Comp
+L Device:Ferrite_Bead L?
+U 1 1 664B22D3
+P 6700 4150
+AR Path="/5B6C6B9D/664B22D3" Ref="L?"  Part="1" 
+AR Path="/5BBD98C6/664B22D3" Ref="L?"  Part="1" 
+AR Path="/5B6E0562/664B22D3" Ref="L2"  Part="1" 
+F 0 "L2" V 6426 4150 50  0001 C CNN
+F 1 "Ferrite_Bead" V 6500 4150 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 6630 4150 50  0001 C CNN
+F 3 "~" H 6700 4150 50  0001 C CNN
+	1    6700 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7050 4350 7100 4350
+$Comp
+L Device:C_Small C20
+U 1 1 6640205B
+P 9150 4600
+F 0 "C20" H 9242 4646 50  0001 L CNN
+F 1 "220u/6V" H 8800 4450 50  0001 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 9150 4600 50  0001 C CNN
+F 3 "~" H 9150 4600 50  0001 C CNN
+	1    9150 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 4700 9150 4850
+Connection ~ 9150 4850
+Wire Wire Line
+	9150 4850 8950 4850
+Wire Wire Line
+	9150 4500 9150 4150
+Connection ~ 9150 4150
+Wire Wire Line
+	9150 4150 9750 4150
+Text Notes 8800 5000 0    50   ~ 0
+2x 220u/6V
 $EndSCHEMATC

@@ -77,3 +77,4 @@ Example: **C10F0001**.hex
 # Software
 
 # Images
+<img src="supplemental/images/C10_usecase1.JPG" width=1000>

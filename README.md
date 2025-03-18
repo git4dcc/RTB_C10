@@ -3,9 +3,26 @@
 [![Kicad_Libs](https://img.shields.io/badge/Kicad_Libs-29C7FF)](https://github.com/git4dcc/RTB_SamacSys)
 [![Apache License 2.0](https://img.shields.io/badge/license-Apache%20License%202.0-lightgray)](https://www.apache.org/licenses/LICENSE-2.0)
 
-The RTB Bus Master connects the PC with the layout via USB.
+My homebrew RTB Bus Master connects the PC with the layout via USB.
 
-<img src="https://rtb4dcc.de/wp-content/uploads/2024/07/C10_2.png">
+<details>
+<summary>See also</summary>
+
+- [RTB_C11 - Power](https://github.com/git4dcc/RTB_C11)
+- [RTB_C12 - Booster](https://github.com/git4dcc/RTB_C12)
+
+</details>
+
+<details>
+<summary>User Guides</summary>
+
+- User Guide - DE
+- [User Guide - EN](https://rtb4dcc.de/rtb_user_guide_en/)
+
+</details>
+
+<img src="supplemental/images/C10_main.JPG" width=700>
+<br>
 
 # Hardware
 My current PCB layout uses SMD footprints with 0.4mm pitch and postly 0603 parts. Reflow soldering is my recommendation, but with some experience handsoldering is also possible.
@@ -16,9 +33,15 @@ My current PCB layout uses SMD footprints with 0.4mm pitch and postly 0603 parts
 - USB: FT232X (Mini-B)
 
 ## Kicad
-:yellow_circle: Dependency: Requires my Kicad project library [RTB_SamacSys](https://github.com/git4dcc/RTB_SamacSys)
+[Schematic](doc/C10_schematic.pdf) | [Layout](doc/C10_layout.pdf) | [Gerber](gerber)
 
-[Schematic](doc/C10_schematic.pdf) | [Layout](doc/C10_layout.pdf)
+<details>
+<summary>Dependency</summary>
+<br>
+
+:yellow_circle: Requires my Kicad project library [RTB_SamacSys](https://github.com/git4dcc/RTB_SamacSys) in the same directory tree.
+
+</details>
 
 ## Firmware
 Filename structure: { **pcb** }{ **code** }{ **version** }.hex

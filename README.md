@@ -70,11 +70,5 @@ Example: **C10F0001**.hex
 | **code** | Type of code contained (**R**=rom, **B**=bootloader, **F**=flash, **U**=bld update, **P**=UPDI factory code) |
 | **version** | Release version (**####**) |
 
-## UPDI
-
-## Debug Interface
-
-# Software
-
 # Images
-<img src="supplemental/images/C10_usecase1.JPG" width=1000>
+<img src="supplemental/images/C10_usecase1.JPG" width=400>

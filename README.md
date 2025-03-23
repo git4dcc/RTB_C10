@@ -74,7 +74,7 @@ Example: **C10F0001**.hex
 [Firmware files](firmware)
 
 # Images
-<img src="supplemental/images/C10_usecase1.JPG" width=300> <img src="supplemental/images/C10_usecase2.JPG" width=300> <img src="supplemental/images/C10_usecase3.JPG" width=300>
+<img src="supplemental/images/C10_usecase2.JPG" width=900> 
 
 # YouTube
 See the C10 bus master in action.<br><br>

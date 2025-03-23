@@ -44,9 +44,10 @@ My current PCB layout uses SMD footprints with 0.4mm pitch and postly 0603 parts
 <img src="supplemental/images/C10_btm.JPG" width=892>
 
 ## PCB
-- 4-layer PCB, FR4, 1.6mm
+- 2-layer PCB, FR4, 1.6mm
 - CPU: AVR64DB48
 - USB: FT232X (Mini-B)
+- PMIC: TPS2552DRVT
 
 ## Kicad
 [Schematic](doc/C10_schematic.pdf) | [Layout](doc/C10_layout.pdf) | [Gerber](gerber)

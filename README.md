@@ -3,7 +3,7 @@
 [![Kicad_Libs](https://img.shields.io/badge/Kicad_Libs-29C7FF)](https://github.com/git4dcc/RTB_SamacSys)
 [![Apache License 2.0](https://img.shields.io/badge/license-Apache%20License%202.0-lightgray)](https://www.apache.org/licenses/LICENSE-2.0)
 
-My homebrew RTB Bus Master connects the PC with the model railway layout via USB.
+My homebrew RTB C10 Bus Master connects the PC with the model railway layout via USB. The bus master is responsible for the bus timing and scales from small testing beads to large scale layouts.
 
 <details>
 <summary>See also</summary>
@@ -71,8 +71,10 @@ Example: **C10F0001**.hex
 | **code** | Type of code contained (**R**=rom, **B**=bootloader, **F**=flash, **U**=bld update, **P**=UPDI factory code) |
 | **version** | Release version (**####**) |
 
+[Firmware files](firmware)
+
 # Images
-<img src="supplemental/images/C10_usecase1.JPG" width=400> <img src="supplemental/images/C10_usecase2.JPG" width=400>
+<img src="supplemental/images/C10_usecase1.JPG" width=300> <img src="supplemental/images/C10_usecase2.JPG" width=300> <img src="supplemental/images/C10_usecase3.JPG" width=300>
 
 # YouTube
 See the C10 bus master in action.<br><br>

@@ -28,13 +28,14 @@ My homebrew RTB C10 Bus Master connects the PC with the model railway layout via
 - **USB**
   - USB 2.0 (3Mbps full duplex)
   - Mini-B connector
-  - firmware update over USB
+  - easy firmware update over USB
   - galvanic isolated
-- **Power over USB**
+- **USB Power Source**
+  - can provide power to other components
   - active limited to 500mA
   - short circuit protection
 - **bus master**
-  - FDX bus head (2Mbps full douplex)
+  - FDX bus head (2Mbps full duplex)
   - fail safe operation
 
 # Hardware

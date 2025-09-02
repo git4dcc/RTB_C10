@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "RTB C10 Module"
-Date "2023-10-22"
-Rev "2"
+Date "2025-08-25"
+Rev "4"
 Comp "Frank Schumacher"
 Comment1 "Bus Master /w USB"
 Comment2 ""

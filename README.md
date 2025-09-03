@@ -40,6 +40,7 @@ My homebrew RTB C10 Bus Master connects the PC with the model railway layout via
 
 # Hardware
 The PCB layout uses SMD footprints with 0.4mm pitch and postly 0603 parts. Reflow soldering is recommended, but with some experience handsoldering is also possible.
+Further, the PCB has been optimized for automated assembly (BOM and Position files as CSV).
 
 <img src="supplemental/images/C10_top.JPG" width=600>
 <img src="supplemental/images/C10_btm.JPG" width=594>

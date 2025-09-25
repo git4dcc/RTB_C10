@@ -1,0 +1,147 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2bc49f27-bf83-425a-8d43-41c076f88a88")
+	(paper "A4")
+	(title_block
+		(title "RTB C10 Module")
+		(date "2025-09-22")
+		(rev "4")
+		(company "Frank Schumacher")
+		(comment 1 "Bus Master /w USB")
+	)
+	(lib_symbols)
+	(sheet
+		(at 139.7 81.28)
+		(size 44.45 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005b6c6b9d")
+		(property "Sheetname" "CPU"
+			(at 139.7 80.2001 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "C10cpu.kicad_sch"
+			(at 139.7 101.2092 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "C10"
+				(path "/2bc49f27-bf83-425a-8d43-41c076f88a88"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 82.55)
+		(size 43.18 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005b6e0562")
+		(property "Sheetname" "Connect"
+			(at 80.01 81.4701 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "C10con.kicad_sch"
+			(at 80.01 102.4792 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "C10"
+				(path "/2bc49f27-bf83-425a-8d43-41c076f88a88"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 198.12 81.28)
+		(size 50.8 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005bbd98c6")
+		(property "Sheetname" "USB"
+			(at 198.12 80.2001 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "C10usb.kicad_sch"
+			(at 198.12 101.2092 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "C10"
+				(path "/2bc49f27-bf83-425a-8d43-41c076f88a88"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

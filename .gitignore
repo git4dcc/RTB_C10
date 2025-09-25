@@ -4,6 +4,8 @@
 # Plot
 PLOT/
 OLD/
+C10-backups/
+production/
 
 # Temporary files
 *.000

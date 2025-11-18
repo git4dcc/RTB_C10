@@ -4973,16 +4973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3.3kOhms, 1%, 1/10W"
-			(at 245.11 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "603-RC0603FR-073K3L"
+		(property "Description" "-55℃~+155℃ 100mW 3.3kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 245.11 58.42 90)
 			(effects
 				(font
@@ -6138,16 +6129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100kOhms, 1%, 1/10W"
-			(at 184.15 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "603-AC0603FR-07100KL"
+		(property "Description" "-55℃~+155℃ 100kΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 184.15 110.49 90)
 			(effects
 				(font
@@ -6301,16 +6283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 0.1uF 0603 X7R"
-			(at 190.5 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "963-MAJCU168BB7104KT"
+		(property "Description" "100nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS100nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 190.5 116.84 0)
 			(effects
 				(font
@@ -6390,15 +6363,6 @@
 			)
 		)
 		(property "Description" "6.3V 100uF X5R 1206 20%"
-			(at 232.41 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "963-JMK316ABJ107ML-T"
 			(at 232.41 116.84 0)
 			(effects
 				(font
@@ -6709,15 +6673,6 @@
 			)
 		)
 		(property "Description" "6.3V 100uF X5R 1206 20%"
-			(at 227.33 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "963-JMK316ABJ107ML-T"
 			(at 227.33 116.84 0)
 			(effects
 				(font

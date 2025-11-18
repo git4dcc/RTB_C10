@@ -6065,82 +6065,12 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "771-74HC595BQ-G"
-			(at 241.3 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C547123"
 			(at 214.63 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "8-bit SIPO shift register,3-state, QFN16"
-			(at 241.3 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "1"
-			(at 241.3 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "771-74HC595BQ-G"
-			(at 241.3 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=771-74HC595BQ-G"
-			(at 241.3 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at 241.3 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "74HC595BQ,115"
-			(at 241.3 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -7218,15 +7148,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "579-AVR64DA48-I/6LX"
-			(at 88.9 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C3227372"
 			(at 88.9 76.2 0)
 			(effects
@@ -8030,16 +7951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3.3kOhms, 1%, 1/10W"
-			(at 142.24 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
+		(property "Description" "-55℃~+155℃ 100mW 3.3kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 142.24 50.8 90)
 			(effects
 				(font
@@ -8555,16 +8467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3.3kOhms, 1%, 1/10W"
-			(at 142.24 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "603-RC0603FR-073K3L"
+		(property "Description" "-55℃~+155℃ 100mW 3.3kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 142.24 59.69 90)
 			(effects
 				(font
@@ -8924,16 +8827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3.3kOhms, 1%, 1/10W"
-			(at 54.61 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
+		(property "Description" "-55℃~+155℃ 100mW 3.3kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 54.61 69.85 90)
 			(effects
 				(font
@@ -9236,16 +9130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3.3kOhms, 1%, 1/10W"
-			(at 87.63 166.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
+		(property "Description" "-55℃~+155℃ 100mW 3.3kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 87.63 166.37 90)
 			(effects
 				(font
@@ -9388,15 +9273,6 @@
 			)
 		)
 		(property "Description" "Oscillators 24.0 MHZ 3.3V 25PPM -40+85C"
-			(at 97.79 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "815-ASE24.000MHZLRT"
 			(at 97.79 142.24 0)
 			(effects
 				(font

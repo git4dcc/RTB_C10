@@ -4299,16 +4299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/10watt 3.3Kohms 1%"
-			(at 162.56 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
+		(property "Description" "-55℃~+155℃ 100mW 3.3kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 162.56 83.82 90)
 			(effects
 				(font
@@ -4388,16 +4379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/10watt 3.3Kohms 1%"
-			(at 162.56 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
+		(property "Description" "-55℃~+155℃ 100mW 3.3kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 162.56 74.93 90)
 			(effects
 				(font
@@ -5760,16 +5742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3.3kOhms, 1%, 1/10W"
-			(at 162.56 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "603-RC0603FR-073K3L"
+		(property "Description" "-55℃~+155℃ 100mW 3.3kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 162.56 105.41 90)
 			(effects
 				(font
@@ -5849,16 +5822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3.3kOhms, 1%, 1/10W"
-			(at 162.56 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "603-RC0603FR-073K3L"
+		(property "Description" "-55℃~+155℃ 100mW 3.3kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 162.56 116.84 90)
 			(effects
 				(font
@@ -6024,16 +5988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/10watt 3.3Kohms 1%"
-			(at 44.45 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "71-CRCW0603-4.7K-E3"
+		(property "Description" "-55℃~+155℃ 100mW 3.3kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 44.45 86.36 90)
 			(effects
 				(font

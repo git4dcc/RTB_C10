@@ -1,6 +1,7 @@
 # RTB_C10
 [![Real-time Bus (RTB)](https://img.shields.io/badge/RTB_Project-FF6699)](https://www.rtb4dcc.de)
 [![Kicad_Libs](https://img.shields.io/badge/Kicad_Libs-29C7FF)](https://github.com/git4dcc/RTB_SamacSys)
+[![Real-time Bus (RTB)](https://img.shields.io/badge/RTB_suite-66FF33)](https://github.com/git4dcc/RTB_suite)
 [![Apache License 2.0](https://img.shields.io/badge/license-Apache%20License%202.0-lightgray)](https://www.apache.org/licenses/LICENSE-2.0)
 
 My homebrew RTB C10 Bus Master connects the PC with the model railway layout via USB. The bus master is responsible for the bus timing and scales from small testing beads to large scale layouts.
@@ -10,6 +11,7 @@ My homebrew RTB C10 Bus Master connects the PC with the model railway layout via
 
 - [RTB_C11 - Power](https://github.com/git4dcc/RTB_C11)
 - [RTB_C12 - Booster](https://github.com/git4dcc/RTB_C12)
+- [RTB_C13 - Track Sensor](https://github.com/git4dcc/RTB_C13)
 - [RTB_P15 - Base](https://github.com/git4dcc/RTB_P15)
 
 </details>

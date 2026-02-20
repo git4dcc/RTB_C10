@@ -9,10 +9,10 @@ My homebrew RTB C10 Bus Master connects the PC with the model railway layout via
 <details>
 <summary>See also</summary>
 
-- [RTB_C11 - Power](https://github.com/git4dcc/RTB_C11)
-- [RTB_C12 - Booster](https://github.com/git4dcc/RTB_C12)
-- [RTB_C13 - Track Sensor](https://github.com/git4dcc/RTB_C13)
-- [RTB_P15 - Base](https://github.com/git4dcc/RTB_P15)
+- [RTB_C11 - Power](/../../../../git4dcc/RTB_C11)
+- [RTB_C12 - Booster](/../../../../git4dcc/RTB_C12)
+- [RTB_C13 - Track Sensor](/../../../../git4dcc/RTB_C13)
+- [RTB_P15 - Base](/../../../../git4dcc/RTB_P15)
 
 </details>
 
@@ -60,7 +60,7 @@ Further, the PCB has been optimized for automated assembly (BOM and Position fil
 <summary>Dependency</summary>
 <br>
 
-:yellow_circle: Requires my Kicad project library [RTB_SamacSys](https://github.com/git4dcc/RTB_SamacSys) in the same directory tree.
+:yellow_circle: Requires my Kicad project library [RTB_SamacSys](/../../../../git4dcc/RTB_SamacSys) in the same directory tree.
 
 </details>
 
